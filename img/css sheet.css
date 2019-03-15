@@ -1,4 +1,81 @@
-nav  {
+/* Reset */
+*  {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+/* Utilities */
+a { 
+   text-decoration: none; 
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+text-primary {
+    color:#f7c08a;
+}
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+
+}
+/*  Navbar */
+nav{
+    background: #333;
+    overflow: auto;
+    color: 
+}
+nav a {
+    color: white;
+
+}
+nav h1{
+    float: left;
+    padding: 16px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+}
+nav ul li {
+float: left;
+}
+nav ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+nav ul li a.current, nav ul li a:hover {
+    background: #444;
+    color: #f7c08a;
+
+}
+#showcase {
+    
+    background: url("../img/showcase.jpg") no-repeat center center/cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+
+}
+#showcase h1 {
+    font-size: 60px;
+    line-height: 1.2em;
+}
+#showcase p {
+    font-size: 20px;
+    line-height: 1.7em;
+}
+.btn {}
 
 
 
