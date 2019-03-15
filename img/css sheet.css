@@ -30,10 +30,23 @@ text-primary {
     cursor: pointer;
 
 }
+.btn-light {
+background: #4f4f4f;
+color: #333;
+
+}
 .bg-dark {
     background-color: #333;
     color: white;
-    
+
+}
+.bg-light {
+    background: #f4f4f4;
+    color: #333
+}
+.bg-primary {
+    background: #f7c08a;
+    color: #333;
 }
 /*  Navbar */
 nav{
@@ -107,6 +120,13 @@ nav ul li a.current, nav ul li a:hover {
 #home-info .info-content p {
     margin-bottom: 30px;
 
+}
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center
 }
 
 
