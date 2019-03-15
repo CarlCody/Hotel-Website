@@ -4,6 +4,9 @@
     padding: 0;
    box-sizing: border-box;
 }
+.clr {
+    clear: both;
+}
 /* Utilities */
 a { 
    text-decoration: none; 
@@ -127,6 +130,35 @@ nav ul li a.current, nav ul li a:hover {
     width: 33.3%;
     padding: 50px;
     text-align: center
+}
+/* About Info */
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100$
+}
+#about-info .info-left h1 {
+    font-size: 40px;
+    line-height: 1.2em;
+}
+#about-info .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+
+}
+#about-info .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50% 
+}
+
+
+/* fOOTER */
+footer {
+    text-align: center
+
 }
 
 
