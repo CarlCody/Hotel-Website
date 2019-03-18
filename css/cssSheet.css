@@ -188,12 +188,32 @@ nav ul li a.current, nav ul li a:hover {
      border-radius: 50%;
      opacity: 0.9;
  }
+/* Contact */
+#contact-form h1{
+    font-size: 40px;
+    line-height: 1.2em;
+    padding:
+}
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
 
+}
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+#contact-form textarea{
+    height: 200px;
+}
+#contact-form input:focus,
 
 /* fOOTER */
 footer {
     text-align: center;
     padding: 20px;
+    background: 
 
 }
 
