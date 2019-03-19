@@ -6,6 +6,11 @@
 }
 
 /* Utilities */
+
+.form-group {
+    margin-bottom: 20px;
+
+}
 .py-1 {
     padding: 10px o;
 }
@@ -42,6 +47,10 @@ padding-bottom: 20px;
     border: none;
     cursor: pointer;
 
+}
+.btn:hover {
+  background: #f7c08a;
+  color: #333;  
 }
 .btn-light {
 background: #4f4f4f;
@@ -207,7 +216,11 @@ nav ul li a.current, nav ul li a:hover {
 #contact-form textarea{
     height: 200px;
 }
-#contact-form input:focus,
+#contact-form input:focus, #contact-form textarea{
+    outline: none;
+    border-color: #f7c08a
+
+}
 
 /* fOOTER */
 footer {
